@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",                             /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": ["DOM"],                                 /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+
+    /* Modules */
+    "module": "ES6",                                /* Specify what module code is generated. */
+    "rootDir": "./src",                             /* Specify the root folder within your source files. */
+
+    /* JavaScript Support */
+    "allowJs": true,                                /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+
+    /* Emit */
+    "outDir": "./public/js",                        /* Specify an output folder for all emitted files. */
+    "removeComments": true,                         /* Disable emitting comments. */
+    "sourceRoot": "../src",                         /* Specify the root path for debuggers to find the reference source code. */
+    "inlineSourceMap": true,                        /* Include sourcemap files inside the emitted JavaScript. */
+    "noEmitOnError": true,                          /* Disable emitting files if any type checking errors are reported. */
+    "esModuleInterop": true,                        /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,       /* Ensure that casing is correct in imports. */
+
+    /* Type Checking */
+    "strict": true,                                 /* Enable all strict type-checking options. */
+    "skipLibCheck": true                            /* Skip type checking all .d.ts files. */
+  }
+}
