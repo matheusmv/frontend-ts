@@ -19,3 +19,9 @@ body {
   text-align: center;
   color: #a89984;
 }
+
+.app-link {
+  color: #a89984;
+  cursor: pointer;
+  text-decoration: none;
+}
